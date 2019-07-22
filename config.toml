@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Strata"
+title = "Routes"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -12,8 +12,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
 	# To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "Charlotte Wickham"
+	description = "Routes: a data art series documenting journeys"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -30,7 +30,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "[Charlotte Wickham](http://cwick.co.nz)"
 		# The icons will be shown if you enter your username
 		twitter = "cvwickham"
 		github = "cwickham"
@@ -43,14 +43,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 		copyright = [
 			"&copy; Charlotte Wickham",
-			"Design: [HTML5 UP](//html5up.net)"
+			"Design: [Hugo Strata Theme](https://github.com/digitalcraftsman/hugo-strata-theme)"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Routes"
+		content = "Pieces in the *Routes* series are generated from Google Street View images along a route between two points provided by the Google Directions API. The image represents the number of pixels in each image belonging to color groups selected by clustering, possibly smoothed and reordered. The result not only evokes a typical landscape along the route, but can also be read left to right as the documentation of a journey."
 
 
 	[params.portfolio]
@@ -124,7 +124,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		email = ""
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -136,7 +136,3 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 # Menu links that appear on the left sidebar
-[[menu.main]]
-	name = "Home"
-	url  = "/"
-	weight = 10
