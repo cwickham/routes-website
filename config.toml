@@ -30,7 +30,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "[Charlotte Wickham](http://cwick.co.nz)"
+		bio = "Routes, a data art series by [Charlotte Wickham](http://cwick.co.nz)"
 		# The icons will be shown if you enter your username
 		twitter = "cvwickham"
 		github = "cwickham"
@@ -50,8 +50,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	[params.about]
 		hide  = false
 		title = "Routes"
-		content = "Pieces in the *Routes* series are generated from Google Street View images along a route between two points provided by the Google Directions API. The image represents the number of pixels in each image belonging to color groups selected by clustering, possibly smoothed and reordered. The result not only evokes a typical landscape along the route, but can also be read left to right as the documentation of a journey."
+		content = """
+Pieces in the *Routes* series are generated from Google Street View images 
+along a route between two points provided by the Google Directions API. 
+The image represents the number of pixels in each image belonging to color 
+groups selected by clustering, possibly smoothed and reordered. The 
+result not only evokes a typical landscape along the route, but can also be 
+read left to right as the documentation of a journey.  
+*Oregon*, *Zion* and *Manhattan* were exhitbited as part of the 2019 Joint 
+Statistical Meetings Data Art Show in Denver, CO.  
 
+If you'd like to learn more about how the images are generated, check out 
+the [project on github](https://github.com/cwickham/routes).  
+
+If you'd like to commission your own route, [get in touch](#contact-form).  
+"""
 
 	[params.portfolio]
 		hide  = false
@@ -67,34 +80,34 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 			description = "*Oregon*:  Corvallis, OR to Portland, OR"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/manhattan.jpeg"
-			thumb = "thumbs/manhattan.jpeg"
-			title = "Manhattan"
-			description = "*Manhattan*: 506 Malcolm X Blvd, New York, NY to 52 Broadway, New York, NY"
-
-		[[params.portfolio.gallery]]
 			image = "fulls/zion.jpeg"
 			thumb = "thumbs/zion.jpeg"
 			title = "Zion"
 			description = "*Zion*: 37.2341762, -112.8726299 to 37.2174425, -112.973322"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/manhattan.jpeg"
+			thumb = "thumbs/manhattan.jpeg"
+			title = "Manhattan"
+			description = "*Manhattan*: 506 Malcolm X Blvd, New York, NY to 52 Broadway, New York, NY"
 
 	[params.recentposts]
 		hide  = true
 		title = "Recent blog posts"
 
 	[params.contact]
-		hide  = true
+		hide  = false
 		title = "Get In Touch"
-		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+		content = "Reach out if you would like to commission a custom route."
 
 		# This can be exact coordinates or a searchable address in google maps
-		gmaps_address = "39.7889055,-120.5443524"
-		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
-		]
-		phone = "000-000-0000"
+		# gmaps_address = "39.7889055,-120.5443524"
+		# address = [
+		#	 "1234 Somewhere Rd.",
+		#	 "Nashville, TN 00000",
+	  #	 "United States"
+		# ]
+		# phone = "000-000-0000"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -107,7 +120,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = ""
+		email = "cwickham@gmail.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
