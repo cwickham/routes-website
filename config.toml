@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://routes.cwick.co.nz"
 languageCode = "en-us"
 title = "Routes"
 theme = "hugo-strata-theme"
@@ -59,11 +59,13 @@ result not only evokes a typical landscape along the route, but can also be
 read left to right as the documentation of a journey.  
 *Oregon*, *Zion* and *Manhattan* were exhitbited as part of the 2019 Joint 
 Statistical Meetings Data Art Show in Denver, CO.  
-
+  
 If you'd like to learn more about how the images are generated, check out 
 the [project on github](https://github.com/cwickham/routes).  
 
 If you'd like to commission your own route, [get in touch](#contact-form).  
+
+## Buy prints in [my shop on etsy!](https://www.etsy.com/shop/DataRoutes)
 """
 
 	[params.portfolio]
