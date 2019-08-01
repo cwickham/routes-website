@@ -1,4 +1,4 @@
-baseurl = "https://routes.cwick.co.nz"
+baseurl = "/"
 languageCode = "en-us"
 title = "Routes"
 theme = "hugo-strata-theme"
